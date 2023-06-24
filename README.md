@@ -13,3 +13,7 @@ It has a beautiful startup message:
 
 This is the default config:
 ![default config](https://i.imgur.com/0aT7MmC.png)
+
+### Placeholders
+
+You can use [MiniPlaceholders](https://hangar.papermc.io/MiniPlaceholders/MiniPlaceholders) in the config.

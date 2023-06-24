@@ -4,7 +4,6 @@ permission: "geosense.use"
 compass: true
 clock: true
 
-
 formats:
   compass: "X: <x>, Y: <y>, Z: <z>, Yaw: <yaw>, Pitch: <pitch>, World: <world>"
   clock: "World: <world>, Time: <time>"
