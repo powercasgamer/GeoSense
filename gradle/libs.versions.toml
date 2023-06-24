@@ -8,13 +8,22 @@ paper = "1.20.1-R0.1-SNAPSHOT"
 run-task = "2.1.0"
 release = "3.0.2"
 hangar-publish = "0.0.5"
+minotaur = "2.8.1"
 bstats = "3.0.2"
+shadow = "8.1.1"
 
 [libraries]
 annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
 paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
 miniplaceholders-api = { module = "io.github.miniplaceholders:miniplaceholders-api", version.ref = "miniplaceholders" }
 bstats = { module = "org.bstats:bstats-bukkit", version.ref = "bstats" }
+minotaur = { module = "com.modrinth.minotaur:Minotaur", version.ref = "minotaur" }
+hangar-publish = { module = "io.papermc:hangar-publish-plugin", version.ref = "hangar-publish"}
+titan = { module = "net.deltapvp:titan", version.ref = "titan" }
+indra-common = { module = "net.kyori:indra-common", version.ref = "indra" }
+indra-git = { module = "net.kyori:indra-git", version.ref = "indra" }
+shadow = { module = "com.github.johnrengelman:shadow", version.ref = "shadow" }
+run-task = { module = "xyz.jpenilla:run-task", version.ref = "run-task" }
 
 [plugins]
 titan = { id = "net.deltapvp.titan", version.ref = "titan" }
@@ -24,3 +33,4 @@ paperweight = { id = "io.papermc.paperweight.userdev", version.ref = "paperweigh
 run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-task" }
 release = { id = "net.researchgate.release", version.ref = "release" }
 hangar-publish = { id = "io.papermc.hangar-publish-plugin", version.ref = "hangar-publish" }
+minotaur = { id = "com.modrinth.minotaur", version.ref = "minotaur" }

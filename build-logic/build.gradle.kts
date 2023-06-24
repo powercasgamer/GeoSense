@@ -4,6 +4,13 @@ plugins {
 
 dependencies {
     compileOnly(files(libs::class.java.protectionDomain.codeSource.location))
+    implementation(libs.minotaur)
+    implementation(libs.hangar.publish)
+    implementation(libs.titan)
+    implementation(libs.indra.common)
+    implementation(libs.indra.git)
+    implementation(libs.shadow)
+    implementation(libs.run.task)
 }
 
 java {
