@@ -49,8 +49,8 @@ indra {
 }
 
 hangarPublish {
-    publications.register("testing") {
-        this.apiEndpoint.set("https://hangar.papermc.dev/api/v1/")
+    publications.register("plugin") {
+//        this.apiEndpoint.set("https://hangar.papermc.dev/api/v1/")
         version.set(project.version as String)
         namespace("powercas_gamer", "Geosense")
         channel.set(if (rootProject.versionString().endsWith("-SNAPSHOT")) "Beta" else "Release")
