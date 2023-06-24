@@ -1,0 +1,26 @@
+[versions]
+annotations = "24.0.1"
+titan = "1.1.29"
+indra = "3.1.1"
+paperweight = "1.5.5"
+miniplaceholders = "2.2.0"
+paper = "1.20.1-R0.1-SNAPSHOT"
+run-task = "2.1.0"
+release = "3.0.2"
+hangar-publish = "0.0.5"
+bstats = "3.0.2"
+
+[libraries]
+annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+miniplaceholders-api = { module = "io.github.miniplaceholders:miniplaceholders-api", version.ref = "miniplaceholders" }
+bstats = { module = "org.bstats:bstats-bukkit", version.ref = "bstats" }
+
+[plugins]
+titan = { id = "net.deltapvp.titan", version.ref = "titan" }
+indra = { id = "net.kyori.indra", version.ref = "indra" }
+indra-publishing = { id = "net.kyori.indra.publishing", version.ref = "indra" }
+paperweight = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight" }
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-task" }
+release = { id = "net.researchgate.release", version.ref = "release" }
+hangar-publish = { id = "io.papermc.hangar-publish-plugin", version.ref = "hangar-publish" }

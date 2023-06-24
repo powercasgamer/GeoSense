@@ -1,0 +1,12 @@
+name: GeoSense
+version: ${pluginVersion}
+description: ${pluginDescription}
+api-version: "1.20"
+main: net.deltapvp.geosense.GeoSense
+author: ${pluginAuthor}
+
+dependencies:
+  server:
+    MiniPlaceholders:
+      required: false
+      load: BEFORE
