@@ -9,7 +9,7 @@ run-task = "2.1.0"
 release = "3.0.2"
 hangar-publish = "0.0.5"
 minotaur = "2.8.1"
-bstats = "3.0.2"
+bstats = "3.2.1"
 shadow = "8.1.1"
 
 [libraries]
